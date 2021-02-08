@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@800&display=swap');
+body {
+  line-height: 20px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: beige;
+}
+
+.container {
+  padding: 2% 6%;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2% 4%;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.btn {
+  border: 1px solid lightpink;
+  background-color: white;
+  padding: 1% 2%;
+  border-radius: 20px;
+}
+
+article {
+  padding: 5% 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.info {
+  max-width: 50%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+
+#started {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+#started:hover {
+  background-color: lightpink;
+}
+
+.illustration img {
+  max-width: 70%;
+  padding: 5% 0;
+}
+
+.community {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.gray {
+  color: lightgray;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 0;
+}
+
+.grow {
+  text-align: left;
+  margin-top: 15%;
+  width: 80%;
+  padding-right: 10%;
+}
+
+.grow-illustration img {
+  max-width: 100%;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.flowing-convo {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  padding: 5% 0;
+}
+
+.flowing-convo img {
+  max-width: 100%;
+}
+
+.convo-content {
+  margin-top: 15%;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.build {
+  padding: 10% 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  min-width: 100%;
+  padding: 5% 0;
+  column-gap: 5%;
+}
+
+.icons {
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+
+.subscribe {
+  border: 1px solid white;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  margin-left: 3%;
+}
+
+input {
+  padding: 8px 0;
+}
+@media (max-width: 750px) {
+  body {
+    padding: 0;
+    width: 100%;
+  }
+
+  .info {
+    max-width: 100%;
+    padding-bottom: 7%;
+  }
+
+  h1 {
+    line-height: 35px;
+    max-width: 100%;
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  p {
+    line-height: 20px;
+    font-size: 18px;
+  }
+
+  #started {
+    padding: 2% 3%;
+  }
+
+  .illustration img {
+    max-width: 100%;
+    padding: 10% 0;
+  }
+
+  .community {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .communities {
+    padding: 10% 0;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+  }
+
+  .grow {
+    text-align: center;
+    padding-bottom: 10%;
+    width: 100%;
+  }
+
+  .flowing-convo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15% 0;
+    justify-content: center;
+  }
+
+  footer {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .newsletter {
+      padding: 10% 0;
+  }
+}
